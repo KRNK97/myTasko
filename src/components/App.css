@@ -1,0 +1,59 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  /* overflow: hidden; */
+}
+
+.newusername {
+  /* font-size: 1rem; */
+  font-weight: 900;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+input.form-inputs {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+input.form-inputs:placeholder-shown {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+input.form-inputs-edit {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+input.form-inputs-edit:placeholder-shown {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+span.task-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+span.icons {
+  font-size: 1rem;
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 1.429rem;
+    font-weight: 900;
+  }
+}
