@@ -17,7 +17,7 @@ SECRET_KEY = '!t$bhwb6oow!-s#g&ub9g-9b95%kbn4po&#+fp+&9#@1@&g@7^'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'mytasko.herokuapp.com'
+    'http://mytasko.herokuapp.com'
 ]
 
 
@@ -150,11 +150,11 @@ SIMPLE_JWT = {
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://localhost:3000",
-    'mytasko.herokuapp.com',
+    'http://mytasko.herokuapp.com',
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    'mytasko.herokuapp.com',
+    'http://mytasko.herokuapp.com',
 ]
 
 
