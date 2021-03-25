@@ -153,6 +153,10 @@ CORS_ALLOWED_ORIGINS = [
     'mytasko.herokuapp.com',
 ]
 
+CORS_ORIGIN_WHITELIST = [
+    'mytasko.herokuapp.com',
+]
+
 
 AUTH_USER_MODEL = 'users.CustomUser'
 django_heroku.settings(locals())
